@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5E41EFBB1A4B91F36362D54 /* Pods_ChoosePet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC34CF77D0B7F78AA74D3E07 /* Pods_ChoosePet.framework */; };
 		C69073DD1CFFAE150013C981 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69073DC1CFFAE150013C981 /* AppDelegate.swift */; };
 		C69073DF1CFFAE150013C981 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69073DE1CFFAE150013C981 /* ViewController.swift */; };
 		C69073E21CFFAE150013C981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69073E01CFFAE150013C981 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 		C69073F51CFFAE150013C981 /* ChoosePetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69073F41CFFAE150013C981 /* ChoosePetTests.swift */; };
 		C69074001CFFAE150013C981 /* ChoosePetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69073FF1CFFAE150013C981 /* ChoosePetUITests.swift */; };
 		C690740E1CFFAECC0013C981 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C690740D1CFFAECC0013C981 /* GoogleService-Info.plist */; };
+		C69074121CFFCC960013C981 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69074111CFFCC960013C981 /* TabBarController.swift */; };
+		C69074151CFFCE4E0013C981 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69074141CFFCE4E0013C981 /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C413590531DE70A2C9C0A75 /* Pods-ChoosePet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoosePet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChoosePet/Pods-ChoosePet.debug.xcconfig"; sourceTree = "<group>"; };
+		BC34CF77D0B7F78AA74D3E07 /* Pods_ChoosePet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChoosePet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C69073D91CFFAE150013C981 /* ChoosePet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChoosePet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C69073DC1CFFAE150013C981 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C69073DE1CFFAE150013C981 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +56,9 @@
 		C69073FF1CFFAE150013C981 /* ChoosePetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePetUITests.swift; sourceTree = "<group>"; };
 		C69074011CFFAE150013C981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C690740D1CFFAECC0013C981 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C69074111CFFCC960013C981 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		C69074141CFFCE4E0013C981 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		FB4140997ADCE63A97B1C09F /* Pods-ChoosePet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoosePet.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChoosePet/Pods-ChoosePet.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5E41EFBB1A4B91F36362D54 /* Pods_ChoosePet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +87,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		199127B5C8EF0254D044E1BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C413590531DE70A2C9C0A75 /* Pods-ChoosePet.debug.xcconfig */,
+				FB4140997ADCE63A97B1C09F /* Pods-ChoosePet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B75572F25C998E6F6768822F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC34CF77D0B7F78AA74D3E07 /* Pods_ChoosePet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C69073D01CFFAE150013C981 = {
 			isa = PBXGroup;
 			children = (
+				C69074131CFFCDCF0013C981 /* Assets */,
 				C69073DB1CFFAE150013C981 /* ChoosePet */,
 				C69073F31CFFAE150013C981 /* ChoosePetTests */,
 				C69073FE1CFFAE150013C981 /* ChoosePetUITests */,
 				C69073DA1CFFAE150013C981 /* Products */,
+				199127B5C8EF0254D044E1BB /* Pods */,
+				B75572F25C998E6F6768822F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +138,7 @@
 				C69073E81CFFAE150013C981 /* LaunchScreen.storyboard */,
 				C69073EB1CFFAE150013C981 /* Info.plist */,
 				C69073E31CFFAE150013C981 /* ChoosePet.xcdatamodeld */,
+				C69074111CFFCC960013C981 /* TabBarController.swift */,
 			);
 			path = ChoosePet;
 			sourceTree = "<group>";
@@ -131,6 +161,14 @@
 			path = ChoosePetUITests;
 			sourceTree = "<group>";
 		};
+		C69074131CFFCDCF0013C981 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C69074141CFFCE4E0013C981 /* UIColor.swift */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C69074041CFFAE150013C981 /* Build configuration list for PBXNativeTarget "ChoosePet" */;
 			buildPhases = (
+				0276C577CF48ADB81BF72386 /* 📦 Check Pods Manifest.lock */,
 				C69073D51CFFAE150013C981 /* Sources */,
 				C69073D61CFFAE150013C981 /* Frameworks */,
 				C69073D71CFFAE150013C981 /* Resources */,
+				BDFFBD40FB3D2442A454D22D /* 📦 Embed Pods Frameworks */,
+				CE9DAA66AADDF4C2FA10189F /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -261,14 +302,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0276C577CF48ADB81BF72386 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BDFFBD40FB3D2442A454D22D /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChoosePet/Pods-ChoosePet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE9DAA66AADDF4C2FA10189F /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChoosePet/Pods-ChoosePet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C69073D51CFFAE150013C981 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C69073DF1CFFAE150013C981 /* ViewController.swift in Sources */,
+				C69074121CFFCC960013C981 /* TabBarController.swift in Sources */,
 				C69073DD1CFFAE150013C981 /* AppDelegate.swift in Sources */,
 				C69073E51CFFAE150013C981 /* ChoosePet.xcdatamodeld in Sources */,
+				C69074151CFFCE4E0013C981 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +501,7 @@
 		};
 		C69074051CFFAE150013C981 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C413590531DE70A2C9C0A75 /* Pods-ChoosePet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ChoosePet/Info.plist;
@@ -421,6 +513,7 @@
 		};
 		C69074061CFFAE150013C981 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB4140997ADCE63A97B1C09F /* Pods-ChoosePet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ChoosePet/Info.plist;
@@ -495,6 +588,7 @@
 				C69074061CFFAE150013C981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C69074071CFFAE150013C981 /* Build configuration list for PBXNativeTarget "ChoosePetTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +597,7 @@
 				C69074091CFFAE150013C981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C690740A1CFFAE150013C981 /* Build configuration list for PBXNativeTarget "ChoosePetUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +606,7 @@
 				C690740C1CFFAE150013C981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

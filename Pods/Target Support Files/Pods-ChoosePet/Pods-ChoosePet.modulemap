@@ -1,0 +1,6 @@
+framework module Pods_ChoosePet {
+  umbrella header "Pods-ChoosePet-umbrella.h"
+
+  export *
+  module * { export * }
+}
